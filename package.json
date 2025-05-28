@@ -1,12 +1,12 @@
 {
   "name": "bitespeed-identity-reconciliation",
   "version": "1.0.0",
-  "main": "dist/test.js",
+  "main": "dist/server.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --respawn src/test.ts",
+    "dev": "ts-node-dev --respawn src/server.ts",
     "build": "tsc",
-    "start": "node dist/test.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
